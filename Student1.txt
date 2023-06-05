@@ -1,0 +1,15 @@
+import java.util.*;
+class Student1{
+int id;
+String name;
+}
+class TestStudent2{
+public static void main(String args[]){
+Student s1=new Student();
+s1.id=123456789
+s1.name="Ramu";
+System.out.println(s1.id+""+s1.name);
+}
+}
+
+

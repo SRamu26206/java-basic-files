@@ -1,0 +1,24 @@
+
+class Student{
+int id;
+String name;
+Student(){rollno=0;name=null;}
+Student(int r,String n){
+rollno=r;
+name=n;
+}
+void display information(){System.out.println(rollno+""+name);}
+}
+cass TestStudent5{
+public static void main(String args[]){
+Student s1;
+s1=new Student();
+Student s2=new Student(111."Ramu");
+s1.displayinformation();
+s2.displayinformation();
+}
+}
+
+
+
+

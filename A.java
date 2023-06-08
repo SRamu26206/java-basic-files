@@ -1,12 +1,6 @@
-class A{
-A(){System.out.println("hello a");}
-A(int x){
-this();
-System.out.println(x);
-}
-}
-class TestThis5{
+class A
+int a=40;
 public static void main(String args[]){
-A a=new A(10);
+System.out.println(a);
 }
 }

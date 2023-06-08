@@ -1,23 +1,9 @@
-class Student{
-int rollno;
-String name,course;
-float fee;
-Student(int rollno,String name,String course){
-this.rollno=rollno;
-this.name=name;
-this.course=course;
+class Counter2{
+Static int count=0;
+Counter2(){
+count++;
+System.out.println(count);
 }
-Student(int rollno,String name,String course,float fee){
-this(rollno,name,course);
-this.fee=fee;
-}
-void display(){System.out.println(rollno+" "+name+" "+course+" ");}
-}
-class TestThis8{
 public static void main(String args[]){
-Student s1=new Student(111,"ankith","java");
-Student s2=new Student(222,"sumith","java",60000f);
-s1.display();
-s2.display();
-}
-}
+Count2 c1=new Counter2();
+Count2 c2=new Counter2();

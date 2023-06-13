@@ -1,19 +1,14 @@
-class Animal2{
-void eat(){System.out.println("eating...");}
+class Anima2{
+void eat(){System.out.println("animal is created");}
 }
-class Dog extends Animal1{
-void bark(){System.out.println("barking...");}
+class Dog extends Anima2{
+Dog(){
+super();
+System.out.println("dog is created");
 }
-class Cat extends Animal{
-void meow(){System.out.println("meowing...");}
 }
-class Testinheritance3{
+class TestSuper3{
 public static void main(String args[]){
-Cat c=new Cat();
-c.meow();
-c.eat();
 Dog d=new Dog();
-d.bark();
-d.eat();
 }
 }

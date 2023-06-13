@@ -1,10 +1,19 @@
-import java.util.Scanner;
+import java.util.*;
 class test{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
-int c=sc.nextInt();
-double f=(9*c)/5.0+32;
-System.out.println(f);
+int sum=0,n;
+int a=0;
+int b=1;
+System.out.println("Enter the nth value:");
+n=sc.nextInt();
+System.out.println("Fibonacci serie:");
+while(sum<=n)
+{
+System.out.print(sum+" ");
+a=b;
+b=sum;
+sum=a+b;
 }
 }
-
+}

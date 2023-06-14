@@ -1,10 +1,10 @@
 import java.util.ArrayList;
-class Main1{
+class Main2{
 public static void main(String args[]){
-ArrayList<Double>marks=new ArrayList<>();
-marks.add(70.0);
-marks.add(90.0);
-marks.add(80.0);
+ArrayList<Integer>marks=new ArrayList<>();
+marks.add(70);
+marks.add(90);
+marks.add(80);
 System.out.println("ArrayList:"+marks);
 }
 }

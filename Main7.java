@@ -1,0 +1,15 @@
+import java.util.List;
+import java.util.ArrayList;
+class Main7{
+public static void main(String args[]){
+ArrayList<String>animals=new ArrayList<>();
+animals.add("Cat");
+animals.add("Dog");
+animals.add("Cow");
+System.out.println("ArrayList:"+animals);
+String str=animals.get(1);
+System.out.println("Element at indext1:"+str);
+str=animals.get(2);
+System.out.println("Element at indext2:"+str);
+}
+}

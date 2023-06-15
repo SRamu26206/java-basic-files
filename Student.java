@@ -1,9 +1,12 @@
-class Counter2{
-Static int count=0;
-Counter2(){
-count++;
-System.out.println(count);
+class Student{
+public int id;
+public String name;
 }
-public static void main(String args[]){
-Count2 c1=new Counter2();
-Count2 c2=new Counter2();
+class test{
+public static vod main(String args[]){
+Student ob=new Student();
+Sytem.out.println("ob.id+" "+ob.name);
+ob.id=25841;
+System.out.println(ob.id+" "+ob.name):
+}
+}

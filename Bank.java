@@ -1,15 +1,14 @@
-abstract class Bike{
-Bike(){System.out.println("bike is created");}
-abstract void run();
-void changeGear(){System.out.println("gear changed");}
-}
-class Honda extends Bike{
-void run(){System.out.println("running safely..");}
-}
-class TestAbstraction2{
-public static void main(String args[]){
-Bike obj=new Honda();
-obj.run();
-obj.changeGear();
-}
-}
+interface Bank{  
+float rateOfInterest();  
+}  
+class SBI implements Bank{  
+public float rateOfInterest(){return 9.15f;}  
+}  
+class PNB implements Bank{  
+public float rateOfInterest(){return 9.7f;}  
+}  
+class TestInterface2{  
+public static void main(String[] args){  
+Bank b=new SBI();  
+System.out.println("ROI: "+b.rateOfInterest());  
+}}  
